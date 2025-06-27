@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['broken_large', 'broken_small', 'manipulated_front', 'scratch_head', 'scratch_neck', 'thread_side', 'thread_top']
+
+roboflow:
+  workspace: defect-detecting
+  project: my-first-project-pqbdl
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/defect-detecting/my-first-project-pqbdl/dataset/3
